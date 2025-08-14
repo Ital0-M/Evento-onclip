@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    margin: 0 100px;
+}
+.buscador{
+    margin: 10px;
+    width: 1000px;
+}
+.contenedorGrande{
+    display: flex;
+    margin: 10px 100px;
+    gap: 10px;
+}
+.contenedorIzquierda{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex:2;
+}
+.contenedorSuperior{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.contenedorInferior{
+    border: 1px solid black;
+    padding: 10px;
+}
+p{
+    margin: 10px;
+}
+.botonIzquierda{
+    background-color: gold;
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.contenedorSuperiorDerecha{
+    border: 1px solid black;
+    padding: 10px
+}
+
+.botonDerecha {
+    background-color: rgb(23, 237, 23);
+    margin: 10px;
+    padding: 5px 20px;
+}
