@@ -18,6 +18,8 @@ let botonLikeGato = document.querySelector(".botonIzquierda.superior");
         let numero = parseInt(botonLikeGato.childNodes[0].textContent.trim());
         numero++;
         botonLikeGato.childNodes[0].textContent = numero + " ";
+        let titulo = botonLikeGato.closest(".contenedorSuperior").querySelector("h2").textContent;
+        alert(`Te gustó la definicion: ${titulo}`);
     });
 
 let botonLikeGolden = document.querySelector(".botonIzquierda.inferior");
@@ -25,4 +27,6 @@ let botonLikeGolden = document.querySelector(".botonIzquierda.inferior");
         let numero = parseInt(botonLikeGolden.childNodes[0].textContent.trim());
         numero++;
         botonLikeGolden.childNodes[0].textContent = numero + " ";
+        let titulo = botonLikeGolden.closest(".contenedorInferior").querySelector("h2").textContent;
+        alert(`Te gusto la definición: ${titulo}`);
     });
